@@ -27,10 +27,10 @@ include 'conn.php';
             $_SESSION['level'] = "2";
             header("location:petugas/index.php");
         } else{
-            header("location:login.php?pesan=gagal");
+            header("location:index.php?pesan=gagal");
         }
 } else{
-    header("location:login.php?pesan=gagal");
+    header("location:index.php?pesan=gagal");
 }
 
 
