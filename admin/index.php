@@ -45,15 +45,6 @@
     </style>
 </head>
 <body>
-<?php
-session_start();
-
-// Check if user is logged in
-if (empty($_SESSION['level'])) {
-    header("location:../index.php?pesan=gagal");
-    exit();
-}
-?>
 
 <nav class="sb-topnav navbar navbar-expand navbar-dark">
     <a class="navbar-brand ps-3" href="index.php"><img src="../assets/ple.png" width="28%"></img>   | Kasir Komponen     </a>
