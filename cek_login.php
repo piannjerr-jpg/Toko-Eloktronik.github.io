@@ -18,7 +18,7 @@ include 'conn.php';
         if($data['level']=="1"){
             $_SESSION['username'] = $username;
             $_SESSION['level'] = "1";
-            header("location:admin/index.php");
+            header("location:admin/index.html");
 
         } else 
         
